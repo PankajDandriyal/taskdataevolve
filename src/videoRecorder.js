@@ -46,8 +46,6 @@ const App = ({ navigation }) => {
         // Code for playing the recorded video
         if (videoUri) {
             navigation.navigate("videoplayer", { video_url: videoUri })
-            // Use a video player library or built-in components to play the video
-            // For example, you can use the `react-native-video` library
         }
     };
 
